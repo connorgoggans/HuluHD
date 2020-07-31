@@ -1,0 +1,16 @@
+{
+    "description": "Make Hulu HD",
+    "manifest_version": 2,
+    "name": "HuluHD",
+    "version": "1.0",
+  
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "https://http-v-darwin.hulustream.com/*"
+    ],
+  
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
